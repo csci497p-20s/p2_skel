@@ -44,6 +44,9 @@ def accumulateBlend(img, acc, M, blendWidth):
          three channels of acc record the weighted sum of the pixel colors
          and the fourth channel of acc records a sum of the weights
     """
+    # convert input image to floats
+    img = img.astype(np.float64) / 255.0
+
     # BEGIN TODO 10: Fill in this routine
     raise Exception("TODO 10 in blend.py not implemented")
     # END TODO
